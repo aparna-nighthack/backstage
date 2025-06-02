@@ -1,0 +1,30 @@
+    "project_name": "Nighthack",
+    "version": "1.0.0",
+    "theme": {
+        "primary_color": "#007bff",
+        "secondary_color": "#6c757d",
+        "background_color": "#f8f9fa"
+    },
+    "api_endpoints": {
+        "user_service": "/api/users",
+        "product_service": "/api/products"
+    },
+    "feature_flags": {
+        "enable_new_dashboard": true,
+        "beta_feature": false
+    },
+    "metadata": {
+        "created_by": "Team Nighthack",
+        "description": "Configuration file for Nighthack application. Includes theme, API endpoints, and feature toggles.",
+        "last_updated": "2023-10-01"
+    },
+    "branding": {
+        "name": "Nighthack",
+        "logo_url": "/assets/nighthack-logo.png"
+    },
+    "settings": {
+        "enable_logging": true,
+        "log_level": "info",
+        "max_connections": 100
+    }
+}

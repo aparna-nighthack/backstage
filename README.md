@@ -1,80 +1,49 @@
-[![headline](docs/assets/headline.png)](https://backstage.io/)
 
-# [Backstage](https://backstage.io)
+## Overview
 
-English \| [한국어](README-ko_kr.md) \| [中文版](README-zh_Hans.md) \| [Français](README-fr_FR.md)
+Welcome to the Nighthack project! This is a fully responsive web application designed with Bootstrap 5, showcasing modern design principles and interactive features.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![CNCF Status](https://img.shields.io/badge/cncf%20status-incubation-blue.svg)](https://www.cncf.io/projects)
-[![Discord](https://img.shields.io/discord/687207715902193673?logo=discord&label=Discord&color=5865F2&logoColor=white)](https://discord.gg/backstage-687207715902193673)
-![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![Codecov](https://img.shields.io/codecov/c/github/backstage/backstage)](https://codecov.io/gh/backstage/backstage)
-[![](https://img.shields.io/github/v/release/backstage/backstage)](https://github.com/backstage/backstage/releases)
-[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7678/badge)](https://bestpractices.coreinfrastructure.org/projects/7678)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/backstage/backstage)
+## Setup Instructions
 
-## What is Backstage?
+To get started with Nighthack, follow these steps:
 
-[Backstage](https://backstage.io/) is an open source framework for building developer portals. Powered by a centralized software catalog, Backstage restores order to your microservices and infrastructure and enables your product teams to ship high-quality code quickly without compromising autonomy.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/nighthack.git
+   ```
 
-Backstage unifies all your infrastructure tooling, services, and documentation to create a streamlined development environment from end to end.
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd nighthack
+   ```
 
-![software-catalog](docs/assets/header.png)
+3. **Open `index.html` in your Preferred Web Browser.**
 
-Out of the box, Backstage includes:
+   This will load the homepage of Nighthack, featuring interactive components designed for responsiveness and accessibility.
 
-- [Backstage Software Catalog](https://backstage.io/docs/features/software-catalog/) for managing all your software such as microservices, libraries, data pipelines, websites, and ML models
-- [Backstage Software Templates](https://backstage.io/docs/features/software-templates/) for quickly spinning up new projects and standardizing your tooling with your organization’s best practices
-- [Backstage TechDocs](https://backstage.io/docs/features/techdocs/) for making it easy to create, maintain, find, and use technical documentation, using a "docs like code" approach
-- Plus, a growing ecosystem of [open source plugins](https://github.com/backstage/backstage/tree/master/plugins) that further expand Backstage’s customizability and functionality
+## Project Structure
 
-Backstage was created by Spotify but is now hosted by the [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io) as an Incubation level project. For more information, see the [announcement](https://backstage.io/blog/2022/03/16/backstage-turns-two#out-of-the-sandbox-and-into-incubation).
+The Nighthack project is organized into the following files:
 
-## Project roadmap
+- **`src/index.html`:** Main HTML file featuring a responsive layout with a navigation bar, content cards, and utilizes a modern grid system.
+- **`src/style.css`:** Contains all the styling rules. Emphasizes a consistent look that aligns with the Nighthack brand.
+- **`src/scripts.js`:** Interactive functionality like navigation menu toggling and other interactive features.
+- **`docs/documentation.md`:** Detailed project documentation including setup instructions.
+- **`config/settings.json`:** Configuration settings such as theme, API endpoints, and project metadata.
 
-For information about the detailed project roadmap including delivered milestones, see [the Roadmap](https://backstage.io/docs/overview/roadmap).
+## Usage
 
-## Getting Started
+- **Navigation:** Use the responsive navigation bar to explore different sections of the application.
+- **Content Display:** The homepage employs Bootstrap cards to display feature highlights.
+- **Customization:** Modify the `config/settings.json` file to adapt project settings to your needs.
 
-To start using Backstage, see the [Getting Started documentation](https://backstage.io/docs/getting-started).
+## Branding
 
-## Documentation
+The Nighthack project reflects a modern and engaging brand identity:
 
-The documentation of Backstage includes:
+- **Primary Colors:** Utilizes a dark theme with high contrast for visual clarity.
+- **Responsive Design:** Ensures a great user experience across all device sizes.
 
-- [Main documentation](https://backstage.io/docs)
-- [Software Catalog](https://backstage.io/docs/features/software-catalog/)
-- [Architecture](https://backstage.io/docs/overview/architecture-overview) ([Decisions](https://backstage.io/docs/architecture-decisions/))
-- [Designing for Backstage](https://backstage.io/docs/dls/design)
-- [Storybook - UI components](https://backstage.io/storybook)
+## Conclusion
 
-## Community
-
-To engage with our community, you can use the following resources:
-
-- [Discord chatroom](https://discord.gg/backstage-687207715902193673) - Get support or discuss the project
-- [Contributing to Backstage](https://github.com/backstage/backstage/blob/master/CONTRIBUTING.md) - Start here if you want to contribute
-- [RFCs](https://github.com/backstage/backstage/labels/rfc) - Help shape the technical direction
-- [FAQ](https://backstage.io/docs/faq) - Frequently Asked Questions
-- [Code of Conduct](CODE_OF_CONDUCT.md) - This is how we roll
-- [Adopters](ADOPTERS.md) - Companies already using Backstage
-- [Blog](https://backstage.io/blog/) - Announcements and updates
-- [Newsletter](https://spoti.fi/backstagenewsletter) - Subscribe to our email newsletter
-- [Backstage Community Sessions](https://github.com/backstage/community) - Join monthly meetups and explore Backstage community
-- Give us a star ⭐️ - If you are using Backstage or think it is an interesting project, we would love a star ❤️
-
-## Governance
-
-See the [GOVERNANCE.md](https://github.com/backstage/community/blob/main/GOVERNANCE.md) document in the [backstage/community](https://github.com/backstage/community) repository.
-
-## License
-
-Copyright 2020-2025 © The Backstage Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
-
-## Security
-
-Please report sensitive security issues using Spotify's [bug-bounty program](https://hackerone.com/spotify) rather than GitHub.
-
-For further details, see our complete [security release process](SECURITY.md).
+We hope you enjoy using and extending the Nighthack project. For questions, contributions, or more information, please visit the [Nighthack repository](https://github.com/yourusername/nighthack).

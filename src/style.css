@@ -1,0 +1,128 @@
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Nighthack brand color */
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffcc00; /* Nighthack accent color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e6b800;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #f1f1f1;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Responsive Grid System */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col {
+    flex: 1 0 0%;
+    padding: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-sm {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md {
+        flex: 0 0 33.33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 0 0 25%;
+    }
+}
+
+/* Card Styles */
+.card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.card-header {
+    background-color: #333;
+    color: #ffcc00;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    color: #ddd;
+}
+
+.card-footer {
+    background-color: #333;
+    color: #ffcc00;
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.pb-3 {
+    padding-bottom: 1rem;
+}
